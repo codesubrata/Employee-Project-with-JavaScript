@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+}
+
+.container {
+  max-width: 1500px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.six_column {
+  width: 50%;
+  padding: 0 15px;
+}
+.formSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#update_formSection form input {
+  color: white;
+}
+.six_column h2 {
+  text-align: center;
+  margin: 10px 0;
+  color: rgb(9, 255, 9);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+form {
+  color: rgb(230, 230, 230);
+  background-color: rgb(30, 30, 30);
+  padding: 30px 50px;
+  border-radius: 7px;
+  margin: 10px 0;
+}
+form .form_input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #757575;
+}
+input::placeholder {
+  color: rgb(201, 201, 201);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+form .form_radio_check {
+  width: 300px;
+  padding: 10px 5px;
+  /* margin: 5px 0 10px 0; */
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+}
+form label {
+  padding: 15px 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+form input[type="radio"] {
+  margin: 0;
+}
+form input[type="checkbox"] {
+  margin: 0;
+}
+.btn {
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+form button {
+  margin: 10px 0;
+  padding: 5px 10px;
+  width: 100px;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  text-align: center;
+  background-color: rgb(15, 230, 15);
+  box-shadow: 0 0 10px 2px rgb(9, 255, 9);
+  border-style: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.all_employee {
+  text-align: center;
+  padding: 15px 10px;
+  margin: 35px 0;
+  color: rgb(253, 173, 0);
+  background-color: rgb(14, 14, 14);
+  border-radius: 7px;
+}
+
+.emp_search {
+  margin: 10px 0;
+  padding: 7px;
+  width: 300px;
+  border-radius: 3px;
+  border-style: none;
+  background-color: white;
+}
+.all_employee_table input::placeholder {
+  color: grey;
+}
+.all_employee_table label {
+  color: white;
+}
+.main_emp_table {
+  border: 1px solid rgb(153, 255, 255);
+  border-radius: 3px;
+  background-color: rgb(28, 28, 28);
+  color: white;
+  padding: 10px 5px;
+}
+#emp_table {
+  width: 100%;
+}
+
+#update_formSection form {
+  position: relative;
+}
+.update_emp_id input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  border-radius: 0 7px 0 0;
+  background-color: #757575;
+  border: none;
+}
+table td {
+  padding: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+table th {
+  padding: 15px;
+  background-color: rgb(0, 179, 250);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+table {
+  border: 1px solid rgb(153, 255, 255);
+  border-radius: 3px;
+  background-color: rgb(30, 30, 30);
+  margin: 0 auto;
+}
+
+table input {
+  padding: 5px 10px;
+  width: 100px;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  text-align: center;
+  background-color: rgb(219, 15, 4);
+  box-shadow: 0 0 5px 2px rgb(255, 40, 40);
+  border-style: none;
+  color: rgb(0, 0, 0);
+}
+
+.error {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
